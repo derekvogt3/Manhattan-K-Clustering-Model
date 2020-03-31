@@ -3,7 +3,9 @@ This model groups Manhattan latitude and longitude data points into clusters bas
 
 # WeWork Location Analysis
 Based upon the K-Clustering model developed in the above section, the following map represents all Manhattan WeWork locations grouped by cluster.
+
 ![Image of WeWork](https://raw.githubusercontent.com/derekvogt3/Manhattan-K-Clustering-Model/master/Screen%20Shot%202020-03-31%20at%201.17.50%20PM.png)
+
 As seen in the map above, the majority of WeWork locations are grouped together within cluster \#3 (light blue).
 
 To demonstrate the usefulness of this analysis, I will go through a few scenarios someone could use this information to drive a business decision.
