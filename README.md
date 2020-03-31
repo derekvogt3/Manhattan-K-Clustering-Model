@@ -6,7 +6,7 @@ Based upon the K-Clustering model developed in the above section, the following 
 
 ![Image of WeWork](https://raw.githubusercontent.com/derekvogt3/Manhattan-K-Clustering-Model/master/Screen%20Shot%202020-03-31%20at%201.17.50%20PM.png)
 
-As seen in the map above, the majority of WeWork locations are grouped together within cluster \#3 (light blue).
+As seen in the map above, the majority of WeWork locations are grouped together within Cluster \#3 (light blue).
 
 To demonstrate the usefulness of this analysis, I will go through a few scenarios someone could use this information to drive a business decision.
 
@@ -14,13 +14,13 @@ To demonstrate the usefulness of this analysis, I will go through a few scenario
 
 In this scenario, you are a part of WeWork's management team looking to expand to a new location. How do you decide which area of Manhattan to expand? Using this model, you can identify a new neighborhood to set up a location. 
 
-The first thing you notice is the majority of locations are grouped as cluster \# 3 (light blue cluster). As a member of the WeWork management team, you should have financial data for each building. Are the buildings labeled as cluster \#3 more profitable than the other clusters? If so, it make sense to expand to a location near a cluster \#3 datapoint. If not, are there other locations more profitable and should you look into expanding near those cluster points?
+The first thing you notice is the majority of locations are grouped as Cluster \# 3 (light blue cluster). As a member of the WeWork management team, you should have financial data for each building. Are the buildings labeled as cluster \#3 more profitable than the other clusters? If so, it make sense to expand to a location near a cluster \#3 datapoint. If not, are there other locations more profitable and should you look into expanding near those cluster points?
 
 As you can see, you can take this a step further with additional building financial data, but having cluster information can be usefull in identifying potential expansion locations.
 
 <ins>Scenario 2: A competitor is looking to expand</ins>
 
-In this scenario, you are a competitor of WeWork looking to expand. You do not have building level financial data for each WeWork location, but you are going to assume the locations in cluster \#3 are more profitable than other clusters -- why else would WeWork be so focused on expanding to these areas? However, a new location set too close to a currently established a WeWork may result in over competition. Based on this logic, expanding to a location near Lincoln Center is advisable. It is still within cluster \#3, but there are no WeWork location currently providing competition.
+In this scenario, you are a competitor of WeWork looking to expand. You do not have building level financial data for each WeWork location, but you are going to assume the locations in Cluster \#3 are more profitable than other clusters -- why else would WeWork be so focused on expanding to these areas? However, a new location set too close to a currently established a WeWork may result in over competition. Based on this logic, expanding to a location near Lincoln Center is advisable. It is still within Cluster \#3, but there are no WeWork location currently providing competition.
 
 
 As a competitor, you should also have financial data for each of your buildings. You can run this model for any Manhattan address by modifying part 1 above, therefore, competitors can draw their own assumption over more profitable neighborhoods. 
