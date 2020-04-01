@@ -1,6 +1,15 @@
 # Introduction
 In this project, we will try to find optimal locations for WeWork expansion. This could be useful for the following stakeholders:
-* WeWork Management
+* <ins>WeWork Management:</ins> WeWork is looking to expand to a new location. Usinging building level profitability, they can determine the most profitable buildings and expand to nighborhood with similar characteristics.
+* <ins>WeWork Competitors:</ins> If a WeWork competitor is looking to expand, they can identify regions of the city that WeWork already exists, and expand to similar areas with less competition.
+* <ins>Commerical Real Estate Company:</ins> If a commerical real estate company is looking to lease space to WeWork, they can use this analysis to identify buildings WeWork is more likeley interested.
+
+# Data
+The data used in this project consist of the following sources
+* <ins>Manhattan Datapoints:</ins> In this model, we will be creating our own datapoints evenly spread accross Manhattan as a grid. This will be used for the K-Clustering Analysis
+* <ins>WeWork Locations:</ins> WeWork locations will be obtained by Webscrabing the company's website
+* <ins>Foursquare API:</ins> This API will be used to obtain venue information near the Manhattan datapoints
+
 ## Manhattan K-Clustering Model
 This model groups Manhattan latitude and longitude data points into clusters based upon the most common nearby business venue types. Using this Model, we can identify neighborhoods with similar characteristics. Refer to the [Manhattan K-Clustering Model](https://github.com/derekvogt3/Manhattan-K-Clustering-Model/blob/master/Manhattan%20K-Clustering%20Model%20-%20WeWork.ipynb) for more detail on the model.
 
